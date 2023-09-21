@@ -45,7 +45,7 @@
         echo "$num nâo é Número Inteiro <br>";
     }
 
-    //is_long() 
+    //is_long() Verifica se a variavel e número inteiro ou não
     if(is_long($num)){
         echo"$num é Número Inteiro <br>";
     }
@@ -77,7 +77,7 @@
         echo "$num nâo é Número Inteiro <br>";
     }
 
-    //is_object()
+    //is_object() Verifica se o número de ponto flutuante é real ou não
     if(is_object($num)){
         echo"$num é Número Inteiro <br>";
     }
@@ -85,7 +85,8 @@
         echo "$num nâo é Número Inteiro <br>";
     }
 
-    //is_real() 
+    //is_real() Verifica se o número de ponto flutuante é real ou não, porem não funciona mais em php
+
     // if(is_real($num)){
     //     echo"$num é Número Inteiro <br>";
     // }
