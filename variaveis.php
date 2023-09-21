@@ -1,6 +1,6 @@
 <?php
-    //primeiro exercicio
-    echo "<h3>Primeiro Exercicio</h3><br>";
+    //Atividade 1
+    echo "<h3>Atividade 1</h3><br>";
 
     //variavel de tipo String
     $nome1 = "meu nome é Pedro";
@@ -22,8 +22,8 @@
     echo "$sim1";
     echo "<br><br>";
 
-    //Segundo Exercicio
-    echo "<h3>Segundo Exercicio</h3>";
+    //Atividade 2
+    echo "<h3>Atividade 2</h3>";
     echo "<br>";
 
     //variaveis
@@ -94,8 +94,8 @@
     //     echo "$num nâo é Número Inteiro <br>";
     // }
 
-    //Terceiro exercicio
-    echo "<h3>Terceiro Exercicio</h3><br>";
+    //Atividade 3
+    echo "<h3>Atividade 3</h3><br>";
 
     //variavel
     $num3 = 2.5;    
