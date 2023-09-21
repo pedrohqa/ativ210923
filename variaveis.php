@@ -24,7 +24,7 @@
 
     //Segundo Exercicio
     echo "<h3>Segundo Exercicio</h3>";
-    echo "<br><br>";
+    echo "<br>";
 
     //variaveis
     $num = 23.8;
