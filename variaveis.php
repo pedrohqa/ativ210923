@@ -97,8 +97,29 @@
     //Atividade 3
     echo "<h3>Atividade 3</h3><br>";
 
-    //variavel
+    //settype() Transforma a variavel em um Número Interio
     $num3 = 2.5;    
     settype($num3,"integer");
     echo "Valor Inteiro: $num3";
+    echo "<br>";
+
+    //Atividade 4
+    echo "<h3>Atividade 4</h3><br>";
+
+    //define() é usada para definir uma constante
+    //    ("Nome da chave","Valor da chave", boolean[false/true])
+    define("constInicial","Aprendendo a usar constante", false);
+    echo constInicial;
+
+    //Atividade 5
+    echo "<h3>Atividade 5</h3><br>";
+
+    //Concatenação de dados 
+    $rua = "Genebra";
+    $bairro = "Pq Novo Oratório";
+    $cidade = "Santo André";
+    $cep = "09-260260";
+    $enderecocompleto = $rua." - " .$bairro." - ".$cidade." - ".$cep;
+    print  $enderecocompleto;
+
 ?>
