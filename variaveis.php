@@ -1,6 +1,7 @@
 <?php
     //primeiro exercicio
     echo "<h3>Primeiro Exercicio</h3><br>";
+
     //variavel de tipo String
     $nome = "meu nome é Pedro";
     echo "$nome";
@@ -21,7 +22,7 @@
     echo "$sim";
     echo "<br><br>";
 
-    //Exercic 2
+    //Segundo Exercicio
     echo "<h3>Segundo Exercicio</h3>";
     echo "<br><br>";
 
@@ -84,11 +85,19 @@
         echo "$num nâo é Número Inteiro <br>";
     }
 
-    //is_real()
-    if(is_real($num)){
-        echo"$num é Número Inteiro <br>";
-    }
-    else{
-        echo "$num nâo é Número Inteiro <br>";
-    }
+    //is_real() 
+    // if(is_real($num)){
+    //     echo"$num é Número Inteiro <br>";
+    // }
+    // else{
+    //     echo "$num nâo é Número Inteiro <br>";
+    // }
+
+    //Terceiro exercicio
+    echo "<h3>Terceiro Exercicio</h3><br>";
+
+    //variavel
+    $num2 = 2.5;    
+    settype($num,"integer");
+    echo "Valor Inteiro: $num2";
 ?>
